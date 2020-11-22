@@ -1,0 +1,414 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    position: fixed;
+    height: 70px;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 2px 1px 0px #bbb;
+}
+.head{
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-top: 6px;
+
+}
+
+.header img{
+    height: 50px;
+}
+.header ul{
+    margin: auto;
+    list-style: none;
+    display: flex;
+}
+.header ul li{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px;
+    cursor: pointer;
+}
+.header ul li:hover{
+    color: #FF6600;
+    border-bottom: 5px solid #FF6600;
+}
+.header button{
+    height: 55px;
+    width: 126px;
+    color: #fff;
+    background: #FF6600;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-width: 0px;
+    margin: auto;
+}
+.header button:focus{
+    outline: none;
+}
+.header i{
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #000;
+}
+.one{
+    max-width: 1200px;
+    margin: auto;
+    padding: 70px 0px;
+    z-index: -1;
+}
+.one .row{
+    align-items: center;
+    margin: 0px;
+}
+.one .row h3{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.one .row h1{
+    font-size: 58px;
+    font-family: 'Righteous', cursive;
+    margin: 20px 0px;
+    color: #000;
+}
+.one .row button{
+    margin-top: 20px;
+    height: 80;
+    width: 350;
+    border-radius: 15px;
+    background: #FF6600;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    border-width: 0px;
+}
+.one .row button:focus{
+    outline: none;
+}
+.one .row img{
+    max-width: 450px;
+    margin: auto;
+    margin: 10px;
+}
+
+
+/* skills section */
+.two{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+ .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading img{
+    width: 25;
+    margin-top: -7px;
+    margin-right: 10px;
+}
+ h2{
+    font-family: 'Secular One', sans-serif;
+}
+.two .row{
+    margin: 0px;
+    padding: 0px;
+}
+.two .row .container{
+    background-color: #FF6600;
+    width: 100%;
+    margin: 20px;
+    margin-top: 30px;
+    border-radius: 25px;
+    max-width: 410px;
+    padding: 0px;
+}
+.two .row .container h4{
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    padding: 15px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.two .row .container .skills{
+    background-color: #f3f3f3;
+    width: 100%;
+    border-radius: 25px;
+}
+.two .row .container ul{
+        list-style: none;
+        padding: 7px 0px;
+
+}
+.two .row .container ul li{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin: 10px;
+    margin-top: 15px;
+    padding: 5px;
+    border-bottom: 1px solid rgb(136, 136, 136, 0.7)
+}
+/* galery section */
+.three{
+    text-align: center;
+    background: url('https://res.cloudinary.com/dmixz7eur/image/upload/v1606032573/Group_44_l6c0zs.png');
+    background-size: cover;
+    background-position: center;
+}
+.gallery{
+    max-width: 1200px;
+    margin: auto;
+}
+.gallery h6{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Secular One', sans-serif;
+}
+.gallery .row{
+    width: 100%;
+}
+
+.gallery .row .images{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    max-width: 800px;
+    max-height: 500px;
+    text-align: center;
+    padding: 0px;
+    margin: 20px;
+    margin: auto;
+    box-shadow: 5px 12px 30px rgb(171, 70, 3, 0.2);
+}
+.gallery .row .images img{
+    max-height: 500px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    min-height: 250px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.gallery .row .images2{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    max-width: 400px;
+    max-height: 500px;
+    box-shadow: 5px 12px 30px rgb(171, 70, 3, 0.2);
+    text-align: center;
+    margin: 20px;
+    margin: auto;
+}
+.gallery .row .images2 img{
+    max-height: 240px;
+    display: flex;
+    box-shadow: 5px 12px 30px rgb(171, 70, 3, 0.2);
+    margin: auto;
+    position: relative;
+    min-width: 350px;
+    display: inline-block;
+    min-height: 250px;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+#second{
+    margin-top: 20px;
+}
+.gallery button{
+    width: 220px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    border-width: 0px;
+    font-weight: 600;
+    color: #FFf;
+    background: #FF6600;
+    margin: 20px;
+}
+.gallery button:focus{
+    outline: none;
+}
+
+hr{
+    max-width: 1200px;
+    margin: auto;
+}
+footer {
+    max-width: 1200px;
+    margin: auto;
+}
+footer .row{
+    margin: 0px;
+}
+footer h5{
+    font-family: 'Righteous', cursive;
+    font-size: 23px;
+    margin: 20px;
+}
+footer p{
+    font-size: 13px;
+    max-width: 400px;
+    color: #555;
+    font-weight: 600;
+    margin: 20px;
+    line-height: 23px;
+}
+footer .socialFooter{
+    margin: auto;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    flex-wrap: wrap;
+}
+footer .socialFooter i{
+    font-size: 27px;
+    color: #000;
+    cursor: pointer;
+    margin-right: 15px;
+}
+footer form{
+    margin: 20px;
+}
+footer form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(117, 117, 117, 0.7);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+}
+footer form textarea{
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgb(117, 117, 117, 0.7);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+}
+footer form button{
+    width: 100%;
+    padding: 10px;
+    background: #FF6600;
+    color: #fff;
+    border-width: 0px;
+    border-radius: 5px;
+}
+footer form button:focus{
+    outline: none;
+}
+footer .port{
+    margin-top: 20px;
+}
+footer .port img{
+    width: 30px;
+}
+footer .port .dribble, footer .port .behance{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin: 20px;
+    cursor: pointer;
+}
+footer .port .dribble h6, footer .port .behance h6{
+    font-size: 15px;
+    font-weight: 800;
+    font-family: 'Secular One', sans-serif;
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+footer .port a{
+    text-decoration: none;
+    color: #333;
+}
+
+@media only screen and (max-width: 768px){
+    .header ul{
+        display: none;
+    }
+    .one .row h3{
+        margin-left: 20px;
+    }
+    .one .row h1{
+        margin-left: 20px;
+    }
+    .one .row button{
+        margin-left: 20px;
+        width: 300px;
+    }
+    .one .row img{
+        max-width: 300px;
+    }
+    .two .row .container{
+        margin: 20px;
+        margin: auto;
+    }
+    .two .row .container h4{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .header ul{
+        display: none;
+    }
+    .header button{
+        display: none;
+    }
+    .one .row{
+        padding: 30px 0px;
+        text-align: center;
+    }
+    .one .row h3{
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .one .row h1{
+        font-size: 38px;
+        margin: 40px;
+    }
+    .one .row img{
+        max-width: 250px;
+    }
+    .two .row .col-md-4{
+        margin: auto;
+    }
+    .two .row .container{
+        max-width: 320px;
+    }
+    .two .row .container{
+        margin: auto;
+        margin: 20px;
+    }
+
+    /* gallery */
+    .gallery .row .images{
+        height: 250px;
+        margin: 20px;
+    }
+    .gallery .row .images2{
+        margin: 20px;
+    }
+    .gallery .row .images img{
+        width: 100%;
+        position: relative;
+    }
+}
